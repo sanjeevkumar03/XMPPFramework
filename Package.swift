@@ -12,10 +12,12 @@ let package = Package(
     products: [
         .library(
             name: "XMPPFramework",
+            type: .static,
             targets: ["XMPPFramework"]
         ),
         .library(
             name: "XMPPFrameworkSwift",
+            type: .static,
             targets: ["XMPPFrameworkSwift"]
         )
     ],
